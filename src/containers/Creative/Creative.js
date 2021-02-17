@@ -4,7 +4,7 @@ import Project from '../Creative/Project/Project'
 import reDealPhoto from '../../images/ReDeals.png'
 import KCCPhoto from '../../images/KCC.png'
 import blackjackPhoto from '../../images/blackjack.png'
-import houseImg from '../../images/House.webp'
+import houseImg from '../../images/duplex.jpg'
 import blockchainImg from '../../images/blockchain.png'
 import otherSideImg from '../../images/OtherSide.jpeg'
 
