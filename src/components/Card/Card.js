@@ -16,6 +16,7 @@ const card = (props) => {
             width: '450px',
             borderRadius: '25px',
             fontSize: '1.5rem',
+            lineHeight: '2.2rem'
         }
     }
     else {
@@ -24,7 +25,8 @@ const card = (props) => {
             height: '200px',
             width: '275px',
             borderRadius: '15px',
-            fontSize: '1.15rem'
+            fontSize: '1.15rem',
+            lineHeight: '2rem'
         }
     }
 
