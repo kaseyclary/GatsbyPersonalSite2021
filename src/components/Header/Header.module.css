@@ -40,4 +40,9 @@
     .HeaderContentArea{
         width: 100%;
     }
+    .HeaderContent{
+        height: 20rem;
+        width: 20rem;
+        text-align: center;
+    }
 }

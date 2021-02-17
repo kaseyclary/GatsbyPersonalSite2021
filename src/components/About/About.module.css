@@ -54,7 +54,7 @@
 
 @media (max-width: 1100px){
     .AboutContainer{
-        width: 100vw;
+        width: 80vw;
     }
     .List{
         display: inline-block;
@@ -63,6 +63,9 @@
     .ListGroup{
         width: 80vw;
         margin-top: 50px;
+    }
+    .ListGroup li h3{
+        font-size: 1.15rem;
     }
 
 }
