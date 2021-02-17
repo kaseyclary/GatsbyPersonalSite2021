@@ -1,0 +1,50 @@
+.ProfessionalBlock{
+    display: flex;
+    margin: 30px 0;
+}
+
+.Card{
+    width: 50%;
+}
+
+.WriteUp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.WriteUp h2{
+    font-size: 1.5rem;
+}
+
+.WriteUpContent{
+    height: 80%;
+    border-left: 2px solid #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+@media (max-width: 800px){
+    .ProfessionalBlock{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .WriteUpContent{
+        align-items: center;
+    }
+    .Card{
+        width: 80vw;
+    }
+    .WriteUp{
+        width: 80vw;
+    }
+}
+
+
+

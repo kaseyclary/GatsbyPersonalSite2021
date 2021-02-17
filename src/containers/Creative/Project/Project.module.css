@@ -1,0 +1,14 @@
+.Project{
+    width: 300px;
+    margin: 20px 0 10px 0;
+
+}
+
+.Project p {
+    font-size: .9rem;
+    height: 60px;
+}
+
+@media (max-width: 480px){
+
+}

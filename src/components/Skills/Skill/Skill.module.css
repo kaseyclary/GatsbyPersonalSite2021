@@ -1,0 +1,8 @@
+.Skill{
+    display: flex;
+}
+
+.Title{
+    margin-right: 10px;
+    width: 120px;
+}

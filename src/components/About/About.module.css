@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.AboutBackground{
+    padding: 20px 0;
+    width: 100vw;
+    height: auto;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.AboutContainer{
+    max-width: 1200px;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.5rem;
+}
+
+.AboutHeader{
+    margin: 20px 0;
+}
+
+.AboutContainer h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #f1f1f1;
+}
+
+.AboutContainer h3{
+    line-height: 3rem;
+}
+
+.AboutContainer p{
+    font-size: 1.5rem;
+}
+
+.List{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.ListGroup{
+    width: 350px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 10px;
+    color: #333333;
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 1100px){
+    .AboutContainer{
+        width: 100vw;
+    }
+    .List{
+        display: inline-block;
+        margin: 10px auto;
+    }
+    .ListGroup{
+        width: 80vw;
+        margin-top: 50px;
+    }
+
+}

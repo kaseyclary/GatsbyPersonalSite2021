@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.ConnectContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 150px 0;
+}
+
+.ConnectText{
+    text-align: center;
+    padding-bottom: 50px;
+    line-height: 3rem;
+}
+
+.ConnectText h2{
+    font-size: 2.5rem;
+}
+
+.ConnectText h3{
+    font-size: 1.5rem;
+}
+
+.ConnectText p{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.SocialContainer{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.CallToAction{
+    margin-top: 50px;
+    text-align: center;
+    color: #555555;
+    line-height: 2rem;
+}
+
+.CallToAction span {
+    color: #1d73e4;
+}
+
+@media (max-width: 480px){
+    .ConnectContainer{
+        width: 80vw;
+        margin: auto;
+    }
+    .SocialContainer{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .CallToAction{
+        margin-top: 20px;
+    }
+    .ConnectText{
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.Skills{
+    width: 100vw;
+    background-color: #555555;
+    padding: 50px 0;
+    margin: auto;
+}
+
+.Skills a{
+    text-decoration: none;
+}
+
+.SkillsGroupHeader{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.SkillsHeader{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f1f1f1;
+    font-size: 2.5rem;
+}
+
+.SkillsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 15%;
+}
+
+.SkillGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 320px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.Jobs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px auto 30px auto;
+    width: 375px;
+    height: 85px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    background-color: #111111;
+    color: #f1f1f1;
+    border: none;
+    outline: none;
+    box-shadow: 0px 10px 30px #11111183;
+    cursor: pointer;
+}
+
+@media (max-width: 1100px){
+    .SkillsContainer{
+        flex-direction: column;
+    }
+    .SkillGroup{
+        margin: 20px 0;
+    }
+    .Jobs{
+        width: 80vw;
+
+    }
+}
