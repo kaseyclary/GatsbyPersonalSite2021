@@ -9,6 +9,7 @@ const system = () => {
             <ul>
                 <li><a href='https://www.youtube.com/watch?v=ZbQh1ZPG5pc' target="_blank">Discipline</a></li>
                 <li><a href="https://www.youtube.com/watch?v=SZEo1KFjTn4" target="_blank">Work on what excites you</a></li>
+                <li><a href="https://www.amazon.com/Surely-Youre-Joking-Mr-Feynman-ebook/dp/B003V1WXKU" target="_blank">Explore your curiosity fully</a></li>
                 <li><a href="https://genius.com/Stephen-r-covey-habit-2-begin-with-the-end-in-mind-annotated" target="_blank">Begin with the end in mind</a></li>
                 <li><a href="https://www.amazon.com/War-Art-Steven-Pressfield-ebook/dp/B007A4SDCG" target="_blank">Learn to love the process</a></li>
                 <li><a href="https://designthinkingformuseums.net/2013/04/25/getting-out-there-a-bias-towards-action/" target="_blank">Be biased toward action</a></li>
