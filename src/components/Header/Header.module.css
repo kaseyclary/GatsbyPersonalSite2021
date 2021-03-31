@@ -13,7 +13,7 @@
 .HeaderImage{
     height: 100%;
     width: 100%;
-    background: url('../../images/HeaderPhoto.jpg') no-repeat center center/cover;
+    background: url('../../images/HeaderPhoto.webp') no-repeat center center/cover;
 }
 
 .HeaderContentArea{
